@@ -27,7 +27,8 @@ function setTime() {
     const hoursForClock = hours % 12;
     const minutes = time.getMinutes();
     const seconds = time.getSeconds();
-    console.log(time, " ", month, day, hours);
+
+    hourEl.style.transform = `translate(-50%, -100%) rotate()`;
 }
 
 setTime();
